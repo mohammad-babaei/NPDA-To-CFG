@@ -88,5 +88,5 @@ if __name__ == "__main__":
     npda.connection_to_rules()
     output = open("CFG.txt",'w')
     output.write('\n'.join(npda.cfg_rules))
-    # output.write('\n'+'('+npda.initialState+'$'+npda.finalState+')')
+    output.write('\n'+'('+npda.initialState+'$'+npda.finalState+')')
     output.close()
